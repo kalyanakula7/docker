@@ -1,0 +1,45 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane@yahoo.com"
+    },
+    {
+      "id": 3,
+      "name": "Mike Johnson",
+      "email": "mike@outlook.com"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "customerId": 1,
+      "product": "iPhone",
+      "quantity": 2
+    },
+    {
+      "id": 2,
+      "customerId": 1,
+      "product": "MacBook Pro",
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "customerId": 2,
+      "product": "iPad",
+      "quantity": 3
+    },
+    {
+      "id": 4,
+      "customerId": 3,
+      "product": "Samsung Galaxy",
+      "quantity": 1
+    }
+  ]
+}
