@@ -1,0 +1,14 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore package-lock.json file
+package-lock.json
+
+# Ignore any build artifacts or compiled files
+*.html
+*.js
+*.css
+
+# Ignore any Docker image or container-related files
+docker-json-crud/
+docker-json-fe/
