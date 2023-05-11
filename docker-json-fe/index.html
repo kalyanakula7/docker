@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customer Orders</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Frontend App</h1>
+
+  <h2>Customers</h2>
+  <button onclick="fetchCustomers()">Fetch Customers</button>
+  <pre id="customers-container"></pre>
+
+  <h2>Single Customer</h2>
+  <input type="text" id="customer-id" placeholder="Customer ID">
+  <button onclick="fetchSingleCustomer()">Fetch Customer</button>
+  <pre id="customer-container"></pre>
+
+  <h2>Customer Orders</h2>
+  <input type="text" id="customer-id-orders" placeholder="Customer ID">
+  <button onclick="fetchCustomerOrders()">Fetch Orders</button>
+  <pre id="customer-orders-container"></pre>
+
+  <h2>Single Order</h2>
+  <input type="text" id="customer-id-order" placeholder="Customer ID">
+  <input type="text" id="order-id" placeholder="Order ID">
+  <button onclick="fetchSingleOrder()">Fetch Order</button>
+  <pre id="order-container"></pre>
+
+  <script src="index.js"></script>
+</body>
+</html>
